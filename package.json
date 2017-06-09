@@ -1,0 +1,25 @@
+{
+  "name": "pssst",
+  "version": "0.0.1",
+  "description": "Anonymous submission of project feedback",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuamil/pssst.git"
+  },
+  "keywords": [
+    "pssst"
+  ],
+  "author": "Joshua Miller <joshuamil@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuamil/pssst/issues"
+  },
+  "homepage": "https://github.com/joshuamil/pssst#readme",
+  "dependencies": {
+    "aws-sdk": "^2.65.0"
+  }
+}

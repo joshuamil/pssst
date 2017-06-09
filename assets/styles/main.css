@@ -1,0 +1,62 @@
+body {
+  background-color: #222;
+  color: #777;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 100%;
+  margin: 2%;
+  padding: 0;
+}
+
+button {
+  background-color: #777;
+  border: 0;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 0;
+  padding: 1em;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #777;
+}
+
+h1 small {
+  font-size: .6em;
+}
+
+textarea {
+  background-color: #777;
+  border: 0;
+  font-size: 1.5em;
+  min-height: 300px;
+  padding: 1%;
+  width: 98%;
+}
+
+textarea:focus,
+input:focus{
+    outline: none;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: black;
+}
